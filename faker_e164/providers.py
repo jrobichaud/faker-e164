@@ -10,7 +10,6 @@ from phonenumbers import PhoneNumber
 
 from faker.providers import BaseProvider
 
-logging.basicConfig(level=os.environ.get("LOGLEVEL", "INFO"))
 logger = logging.getLogger(__name__)
 
 safe_numbers = {
